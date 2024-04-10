@@ -19,10 +19,10 @@ public class HomeController {
 	public String insertEmployee(Model model)
 	{
 		Employee employee = new Employee();
-		employee.setEname("Kiraniuhaiuhv");
-		employee.setEdesignation("Jkjabva");
-		employee.setEexp(103999404);
-		employee.setEdepartment("Cluaioviagoi");
+		employee.setEname("K");
+		employee.setEdesignation("J");
+		employee.setEexp(1);
+		employee.setEdepartment("C");
 
 		Employee emp=employeeService.saveEmployee(employee);
 		String msg ="Employee "+emp.getEname()+" with id "+emp.getEid()+" is saved " ;
