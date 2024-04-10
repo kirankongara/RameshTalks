@@ -33,5 +33,6 @@ public class HomeController {
 		
 		return "home";
 	}
+	public String uppdateEmployee(){};
 
 }
